@@ -1,0 +1,134 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: whitesmoke;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+header h1 {
+  font-size: 3em;
+  color: #333;
+  padding: 10px;
+}
+
+header h3 {
+  font-size: 1.5em;
+  color: #333;
+  padding: 20px;
+}
+
+.country {
+  width: 31%;
+  height: 200px;
+  float: left;  
+  margin: 10px; 
+}
+
+.country:hover {
+  background-color: #dadada;
+  cursor: pointer;
+  transition: 1s;
+  box-shadow: 5px 10px #dadada;
+}
+
+.country p {
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 7 ;
+  font-weight: bold;
+  color: #fff; 
+  letter-spacing:2px;
+  text-shadow: 2px 2px #0a0909;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.bg-brasil {
+  background-image: url('https://www.costacruzeiros.com/content/dam/costa/inventory-assets/ports/RIO/c035_rio_de_janeiro.jpg.image.1440.523.high.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-china {
+  background-image: url('https://www.china-briefing.com/news/wp-content/uploads/2019/03/China-Briefing-An-Introduction-to-Beijing-China-City-Profile-Series.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-eua {
+  background-image: url('https://i.ytimg.com/vi/qJg3ci4Eluw/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-india {
+  background-image: url('https://abrilviagemeturismo.files.wordpress.com/2016/12/1775012971-e1485363211437.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-australia {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Australia_Day.jpg/1200px-Australia_Day.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-africa-do-sul {
+  background-image: url('https://www.infoescola.com/wp-content/uploads/2010/05/cidade-do-cabo_92510755-1000x667.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-alemanha {
+  background-image: url('https://www.euandopelomundo.com/wp-content/uploads/2018/08/berlin_10coisas_para_fazer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-russia {
+  background-image: url('https://www.jm-madeira.pt/file/index/noticias/86917/5e7340208e1ad.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-cuba {
+  background-image: url('https://abrilveja.files.wordpress.com/2018/04/mundo-havana-cuba-20151222-001.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-mexico {
+  background-image: url('https://gd-cancun.sfo2.cdn.digitaloceanspaces.com/2018/10/cidade-do-mexico-roteiros.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-colombia {
+  background-image: url('https://gd-colombia.sfo2.cdn.digitaloceanspaces.com/2018/11/bogota-cidade-1024x684.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-vietna {
+  background-image: url('https://www.4oito.com.br/img/noticias/maos-dos-deuses-vitna-4oito_15970.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  margin-top: 20px;
+  height: 60px;
+  background-color: rgb(2, 100, 2);
+
+}
+
+footer p {
+  line-height: 4;
+  text-align: center;
+  color: white;
+}
